@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: block;
+}
+header nav{
+    display: flex;
+    width: 80%;
+    margin: 1rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo img{
+  width: 6rem;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+header nav .home a {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+header nav .right-nav{
+    display: flex;
+    gap: 2rem;
+}
+header .heading{
+    margin-top: 5rem;
+}
+header .heading .light{
+    color: #bdbdbd;
+    font-weight: 200;
+    font-size: 3rem;
+}
+header .heading h1 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3.5rem;
+}
+.imgage{
+    padding-top: 40px;
+    margin-left: 80px;
+    margin-right: 140px;
+
+}
+.imgage img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    margin: 10px ;
+}
+main .read {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    background-color: #fbfbfb;
+    padding: 1rem 1rem;
+}
+main .read .images-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-basis: 50%;
+}
+main .read .images-section img {
+    width: 100%;
+}
+main .read .images-section img {
+    width: 100%;
+}
+main .read .text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 50%;
+}
+main .readmore .text-section button {
+    width: 40%;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+.section1 {
+ margin-left: 40px;
+ margin-top: 40px;
+
+
+}
+.inputs{
+    margin-top: 40px;
+
+}
+.inputs input{
+    padding: 20px 50px 50px 90px;
+    margin-top: 20px;
+    background-color: rgb(214, 217, 222);
+    border: none;
+    margin-left: 500px;
+}
+.section1  h2 {
+    text-align: center;
+}
+
+
+.img2 {
+    display: flex;
+    position: relative;
+    margin-top: -500px;
+
+}
+.img2 img {
+    margin-left: 50%;
+}   
+.btn{
+    margin-left: 600px;
+    margin-top: 30px;
+    padding: 30px 60px 30px 60px;
+    background-color: black;
+}
+.btn h3{
+    color: aliceblue;
+}
+footer{
+    margin-top: 200px;
+}
+.footers{
+    background-color: black;
+}
+.inform{
+    color: aliceblue;
+    display: flex;
+
+}
+img .lingo{
+    height: 40px;
+    width: 40px;
+}
